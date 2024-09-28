@@ -1,2 +1,2 @@
-# terraform-infra-imentorlly
-imentollry infra app.
+# Terraform_AWS_infra
+Crate an AWS infrastructure using Terraform. 
