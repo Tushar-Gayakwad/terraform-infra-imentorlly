@@ -1,4 +1,9 @@
-output "id" {
+output "VPC_id" {
+  value       = module.vpc[*].vpc_id
+  description = "The ID of the VPC."
+}
+
+output "Subnet_id" {
   value       = module.vpc[*].vpc_id
   description = "The ID of the VPC."
 }
